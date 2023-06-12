@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Ecommerce.Models.Prodotti>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Benvenuto nell'Home Page dell'Ecommerce, qui trovi i prodotti disponibili</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prezzo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantitaDisponibile)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Prezzo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.QuantitaDisponibile)
+                </td>
+                
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,53 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "EcommerceContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Ecommerce",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Carrelli]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CarrelloProdotti]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Prodotti]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Utenti]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "(localdb)\\MSSQLLocalDB.Ecommerce",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
